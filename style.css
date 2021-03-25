@@ -1,0 +1,67 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white; 
+}
+
+h1 {
+  font-family: helvetica, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: darkgray;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: lightgreen;
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button3 {
+    background: pink;
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button1:active, #button1.lit {
+    background-image: url(https://cdn.glitch.com/ad1e11c4-2706-415b-90b5-86433e2330ab%2Fkiwi.jpeg?v=1616627454939);
+    background-size: 200px 200px;
+}
+
+#button2:active, #button2.lit {
+    background-image: url(https://cdn.glitch.com/ad1e11c4-2706-415b-90b5-86433e2330ab%2Fblueberry.jpg?v=1616627457048);
+    background-size: 200px 200px;
+}
+
+#button3:active, #button3.lit {
+    background-image: url(https://cdn.glitch.com/ad1e11c4-2706-415b-90b5-86433e2330ab%2Fstrawberry.jpeg?v=1616627455177);
+    background-size: 200px 200px;
+}
+
+#button4:active, #button4.lit {
+    background-image: url(https://cdn.glitch.com/ad1e11c4-2706-415b-90b5-86433e2330ab%2Fbanana.jpeg?v=1616627454938);
+    background-size: 200px 200px;
+}
